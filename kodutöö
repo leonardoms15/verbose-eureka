@@ -1,0 +1,46 @@
+#Kodutöö 2
+#Leonardo Montenegro
+#ITT20
+
+
+
+#Täringud
+import random
+
+taringud = int(input("Taringute arv: "))
+
+for i in range(5):
+    print(random.randrange(1,6))
+
+
+
+
+#Äratus
+aratada = int(input("Sisetage mitu korda äratada: "))
+
+for i in range(aratada):
+    print("Tõuse ja Sära")
+
+
+
+
+#Bussid
+inimeste = int(input("Inimeste arv: "))
+kohtade = int(input("Kohtade arv: "))
+
+if inimeste == 20 and kohtade == 40:
+    print("Busse vaja: ",1)
+    print("Viimases bussis inimesi: ",20)
+
+if inimeste == 40 and kohtade == 40:
+    print("Busse vaja: ",1)
+    print("Viimases bussis inimesi: ",40)
+
+if inimeste == 60 and kohtade == 40:
+    print("Busse vaja: ",2)
+    print("Viimases bussis inimesi: ",20)
+
+if inimeste == 80 and kohtade == 40:
+    print("Busse vaja: ",2)
+    print("Viimases bussis inimesi: ",40)
+    
